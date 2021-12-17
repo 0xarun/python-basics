@@ -22,7 +22,7 @@ print(a)
 
 OUTPUT : apple
 
-###CONVERSION BETWEEN DATA TYPES
+### CONVERSION BETWEEN DATA TYPES
 
 **Floating point to Integer Convesion**
 6. b=int(75.65)
@@ -36,7 +36,7 @@ print(b)
 
 OUTPUT : 20.0
 
-###ADDITION OF TWO NUMBERS
+### ADDITION OF TWO NUMBERS
 
 **INTEGER ADDITION**
 
@@ -79,7 +79,7 @@ True
 True
 False
 
-###STRING MANIPULATION
+### STRING MANIPULATION
 
 12.  a=’python’
 b=’programming’
@@ -131,7 +131,7 @@ print(a[2])
 
 OUTPUT : t
 
-###LIST MANIPULATION
+### LIST MANIPULATION
 
 
 Creating a list : 
@@ -191,7 +191,7 @@ print(t[2:])
 
 OUTPUT : ('trichy', 'm', 20)
 
-MANIPULATION WITH SETS
+### MANIPULATION WITH SETS
 
 31. x=set("python")
 print(x)
@@ -208,7 +208,7 @@ print(x)
 
 OUTPUT : {'coimbatore', 'chennai', 'bangalore', 'trichy'}
 
-###DICTIONARIES – MAPPING
+### DICTIONARIES – MAPPING
 
 34. dictionary={'name':'lakshmi','roll':'234','dept':'CSE'}
 print(dictionary)
