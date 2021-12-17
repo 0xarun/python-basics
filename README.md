@@ -1,2 +1,2 @@
 # python-basics
-My college stuffs my tryouts
+My college stuffs and my tryouts
