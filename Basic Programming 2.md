@@ -1,48 +1,49 @@
 **Multiple statements in one line**
 
-a=2;b=3;c=a+b;print(c)
-OUTPUT : 5
+	a=2;b=3;c=a+b;print(c)
+	OUTPUT : 5
 
 **Membership operator:**
-x=1
-y=2
-list=[2,3,5,6,7]
-if(x in list):
-    print("x is available in list")
-else:
-    print("X not in list")
-    if(y in list):
-        print("y is available in list")
-    else:
-        print("y not in list")
-OUTPUT : 
-X not in list
-y is available in list
+	
+	x=1
+	y=2
+	list=[2,3,5,6,7]
+	if(x in list):
+	    print("x is available in list")
+	else:
+	    print("X not in list")
+	    if(y in list):
+		print("y is available in list")
+	    else:
+		print("y not in list")
+	OUTPUT : 
+	X not in list
+	y is available in list
 
 **Boolean operators :**
 
-a=True
-b=False
-print(a and b)
-print(a or b)
-print(not a)
-print(not b)
+	a=True
+	b=False
+	print(a and b)
+	print(a or b)
+	print(not a)
+	print(not b)
 
-OUTPUT :
+	OUTPUT :
 
-False
-True
-False
-True
+	False
+	True
+	False
+	True
 
 ### Sequential Statements 
 
 **Addition of two numbers**
 
-a=int(input("Enter number 1 :"))
-b=int(input("Enter number 2 :"))
-c=a+b
-print("Answer is",c)
+	a=int(input("Enter number 1 :"))
+	b=int(input("Enter number 2 :"))
+	c=a+b
+	print("Answer is",c)
 
 **Area of circle**
 
@@ -60,9 +61,9 @@ print("Answer is",c)
     b=int(input("Enter the breadth :"))
     area=l*b
     print("Area of reactangle is",area)
-    • Calculate Simple Interest
-    • Find Total and average of given 5 marks
-    • Print square of a number
+    â€¢ Calculate Simple Interest
+    â€¢ Find Total and average of given 5 marks
+    â€¢ Print square of a number
 
 ### Selective statements 
 **Biggest of two numbers**
@@ -82,54 +83,55 @@ print("Answer is",c)
 
 **Negative or positive number**
 
-a=int(input("Enter a number"))
-if(a>0):
-    print("The number is positive")
-elif(a<0):
-    print("the number is negative")
-else:
-    print("Number is zero")
+	a=int(input("Enter a number"))
+	if(a>0):
+	    print("The number is positive")
+	elif(a<0):
+	    print("the number is negative")
+	else:
+	    print("Number is zero")
 
 **Odd or Even**
 
-a=int(input("Enter a number"))
-if((a%2)==0):
-    print("The number is even")
-else:
-    print("The number is odd")
+	a=int(input("Enter a number"))
+	if((a%2)==0):
+	    print("The number is even")
+	else:
+	    print("The number is odd")
 
 **Find biggest of 3 numbers**
 
-a=int(input("Enter number 1:"))
-b=int(input("Enter number 2:"))
-c=int(input("Enter number 3:"))
-if((a>b)&(a>c)):
-    print("A is greater")
-elif((b>c)&(b>a)):
-    print("B is greater")
-elif((c>a)&(c>b)):
-    print("c is greater")
+	a=int(input("Enter number 1:"))
+	b=int(input("Enter number 2:"))
+	c=int(input("Enter number 3:"))
+	if((a>b)&(a>c)):
+	    print("A is greater")
+	elif((b>c)&(b>a)):
+	    print("B is greater")
+	elif((c>a)&(c>b)):
+	    print("c is greater")
 
 **Looping Statements**
+
 Print n natural numbers
 
-n=int(input("Enter  n value :"))
+	n=int(input("Enter  n value :"))
 
-print("\n")
-for i in range(0,n,1):
-    print(i)
-Print n odd numbers
-n=int(input("Enter  n value :"))
+	print("\n")
+	for i in range(0,n,1):
+	    print(i)
+	Print n odd numbers
+	n=int(input("Enter  n value :"))
 
-print("\n")
-for i in range(1,n,2):
-    print(i)
-Print n even numbers
-n=int(input("Enter  n value :"))
+	print("\n")
+	for i in range(1,n,2):
+	    print(i)
+	Print n even numbers
+	n=int(input("Enter  n value :"))
 
-print("\n")
-for i in range(0,n,2):
-    print(i)
+	print("\n")
+	for i in range(0,n,2):
+	    print(i)
 
 **Print squares of n numbers**
 
@@ -147,17 +149,17 @@ for i in range(0,n,2):
 
 **Sum of n numbers**
 
-n=int(input("enter n value:"))
-sum=0
-print("Sum of numbers upto",n)
-for i in range(1,n+1,1):
-    sum=sum+i
-print(sum)
-OUTPUT :
-enter n value:
-5 
-Sum of numbers upto 5 
-15
+	n=int(input("enter n value:"))
+	sum=0
+	print("Sum of numbers upto",n)
+	for i in range(1,n+1,1):
+	    sum=sum+i
+	print(sum)
+	OUTPUT :
+	enter n value:
+	5 
+	Sum of numbers upto 5 
+	15
 
 **Print factorial of a given number**
 
@@ -176,46 +178,46 @@ Sum of numbers upto 5
 
 **1. Program to circulate values of n variables**
 
-list=[11,13,15,17,18]
-print(list)
-for i in range(1,5,1):
-    list1=list[i:]+list[:i]
-    i=i+1
-    print(list1)
+	list=[11,13,15,17,18]
+	print(list)
+	for i in range(1,5,1):
+	    list1=list[i:]+list[:i]
+	    i=i+1
+	    print(list1)
 
-OUTPUT :
-[11, 13, 15, 17, 18] 
-[13, 15, 17, 18, 11] 
-[15, 17, 18, 11, 13] 
-[17, 18, 11, 13, 15]
-[18, 11, 13, 15, 17]
+	OUTPUT :
+	[11, 13, 15, 17, 18] 
+	[13, 15, 17, 18, 11] 
+	[15, 17, 18, 11, 13] 
+	[17, 18, 11, 13, 15]
+	[18, 11, 13, 15, 17]
 
 **2. Swapping of 2 values**
 
 
-a=int(input("Enter value 1:"))
-b=int(input("Enter value 2: "))
-print("Before swapping")
-print("a =",a)
-print("b =",b)
-print("After swapping")
-t=a
-a=b
-b=t  
-print("a=",a)
-print("b=",b)
+	a=int(input("Enter value 1:"))
+	b=int(input("Enter value 2: "))
+	print("Before swapping")
+	print("a =",a)
+	print("b =",b)
+	print("After swapping")
+	t=a
+	a=b
+	b=t  
+	print("a=",a)
+	print("b=",b)
 
-OUTPUT :
-Enter value 1:
-4 
-Enter value 2: 
-6 
-Before swapping 
-a = 4 
-b = 6 
-After swapping 
-a= 6 
-b= 4 
+	OUTPUT :
+	Enter value 1:
+	4 
+	Enter value 2: 
+	6 
+	Before swapping 
+	a = 4 
+	b = 6 
+	After swapping 
+	a= 6 
+	b= 4 
        
 **3. Distance between two points :**
 
@@ -268,63 +270,63 @@ b= 4
 
 **LIST OPERATIONS**
 
-_#create an empty list_
+	_#create an empty list_
 
-list=[]
-n=int(input("Enter N:"))
+	list=[]
+	n=int(input("Enter N:"))
 
-_#create a list from user input_
+	_#create a list from user input_
 
-for i in range(0,n,1):
-    list.append(int(input()))
-    print(list)
-    # calculate sum
-    print(sum(list))
-    # calculate length of a list
-    print(len(list))
-    # sort a list
-    list.sort()
-    print(list)
-       #Add an element in to a list
-    list=[8,23,6,21,1]
-    a=int(input("add element"))
-    list.append(a)
-    list.sort()
-    print(list)
-    # Find minimum in the list
-    list=[8,23,6,21,1]
-    a=min(list)
-    print(a)
+	for i in range(0,n,1):
+	    list.append(int(input()))
+	    print(list)
+	    # calculate sum
+	    print(sum(list))
+	    # calculate length of a list
+	    print(len(list))
+	    # sort a list
+	    list.sort()
+	    print(list)
+	       #Add an element in to a list
+	    list=[8,23,6,21,1]
+	    a=int(input("add element"))
+	    list.append(a)
+	    list.sort()
+	    print(list)
+	    # Find minimum in the list
+	    list=[8,23,6,21,1]
+	    a=min(list)
+	    print(a)
 
 **To find a character is a vowel or not**
 
-v=['a','e','i','o','u']
-c=input("Enter an alphabet")
-if(c in v):
-    print(c,"is a vowel")
-else:
-    print("Not a vowel")
+	v=['a','e','i','o','u']
+	c=input("Enter an alphabet")
+	if(c in v):
+	    print(c,"is a vowel")
+	else:
+	    print("Not a vowel")
 
 **Fahrenheit to celcius conversion**
 
 
-    °F = °C * 1.8000 + 32.00
+    Â°F = Â°C * 1.8000 + 32.00
 	
     Absolute Zero
-    -273.15°C
-    -459.67°F
+    -273.15Â°C
+    -459.67Â°F
     Parity
-    -40.00°C
-    -40°F
+    -40.00Â°C
+    -40Â°F
     Freezing point
-    0°C
-    32°F
+    0Â°C
+    32Â°F
     Body Temperature
-    37°C
-    98.6°F
+    37Â°C
+    98.6Â°F
     Boiling point
-    100°C
-    212°F
+    100Â°C
+    212Â°F
 
     c=float(input("enter a number"))
     f=(c*1.8)+32
@@ -340,9 +342,9 @@ else:
 
 **Decimal - Binary conversion**
 
-n=int(input("Enter a number :"))
-b=oct(n)
-print(b)
+	n=int(input("Enter a number :"))
+	b=oct(n)
+	print(b)
        
 **Counting the no, of even and odd numbers In a list :**
        
@@ -364,18 +366,18 @@ print(b)
 
 **Vowel or not (without using membership operator)**
 
-list=[]
-for i in range(0,5,1):
-    v=input("Enter vowels:")
-    list.append(v)
-print(list)
-c=input("enter a character")
-for j in range(0,5,1):
-    if(list[j]==c):
-        vowel=1
-    else:
-        vowel=0    
-if(vowel==1):
-    print(c,"is a vowel")
-elif(vowel==0):
-    print(c,"is not a vowel")
+	list=[]
+	for i in range(0,5,1):
+	    v=input("Enter vowels:")
+	    list.append(v)
+	print(list)
+	c=input("enter a character")
+	for j in range(0,5,1):
+	    if(list[j]==c):
+		vowel=1
+	    else:
+		vowel=0    
+	if(vowel==1):
+	    print(c,"is a vowel")
+	elif(vowel==0):
+	    print(c,"is not a vowel")
